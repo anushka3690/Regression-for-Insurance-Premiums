@@ -8,6 +8,8 @@ This project aims to predict insurance premiums based on various customer attrib
 
 ## 📊 Dataset
 
+**Dataset Source**: [Kaggle Playground Series S4E12](https://www.kaggle.com/competitions/playground-series-s4e12)
+
 The dataset contains insurance customer information with the following key features:
 
 ### Features Used:
