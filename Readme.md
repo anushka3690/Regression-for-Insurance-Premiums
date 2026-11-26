@@ -2,6 +2,12 @@
 
 A comprehensive machine learning project that predicts insurance premiums using Artificial Neural Network (ANN) regression, optimized for Root Mean Squared Logarithmic Error (RMSLE) evaluation.
 
+## Portfolio summary
+
+This Kaggle Playground Series S4E12 project studies premium prediction as a regression problem. Its notebook documents exploratory analysis, date and numeric feature transformations, missing-value handling, an ANN built with TensorFlow/Keras, and RMSLE-focused evaluation.
+
+**Skills demonstrated:** regression, feature engineering, preprocessing, neural-network training, regularization, and metric-aware evaluation. The competition data is not included in this repository, and this README does not claim a particular score.
+
 ## 🎯 Project Overview
 
 This project aims to predict insurance premiums based on various customer attributes including demographics, financial information, vehicle details, and policy characteristics. The model is specifically designed for competition evaluation using RMSLE as the primary metric.
@@ -99,23 +105,15 @@ The model is evaluated using multiple metrics:
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow scipy
 ```
 
-2. **Data Preparation**
-```python
-# Load and preprocess data
-python notebook.ipynb  # Execute cells 1-38
+2. **Prepare the data**
+Download the competition files from Kaggle and place `train.csv`, `test.csv`, and (if needed) `sample_submission.csv` where the notebook expects them.
+
+3. **Open and run the notebook**
+```bash
+jupyter notebook
 ```
 
-3. **Model Training**
-```python
-# Train ANN model
-python notebook.ipynb  # Execute cells 39-44
-```
-
-4. **Generate Predictions**
-```python
-# Create submission file
-python notebook.ipynb  # Execute cell 45
-```
+Run `notebook.ipynb` from top to bottom; a Jupyter notebook should be executed with Jupyter, not passed to the Python interpreter as a `.py` script.
 
 ### File Structure
 ```
@@ -173,11 +171,7 @@ The notebook generates comprehensive visualizations:
 
 ## 📝 Results
 
-The model achieves competitive performance with:
-- Optimized RMSLE score for insurance premium prediction
-- Robust generalization through proper regularization
-- Efficient training with callback mechanisms
-- Comprehensive evaluation metrics
+The notebook evaluates the model using RMSLE, RMSE, MAE, and R². No numeric score is documented in this README; review the notebook outputs and validation setup when assessing the results.
 
 ## 🤝 Contributing
 
